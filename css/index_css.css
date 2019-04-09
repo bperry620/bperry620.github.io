@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*NAV BEGIN*/
+.navbar{
+	background-color: #FFFFFF;
+}
+
+.nav-link a{
+	color: #264c59;
+}
+
+.navbar-toggler {
+	border-color: #264c59;
+}
+.navbar-toggler-icon{
+	background-color: #264c59;
+	position: relative;
+	height: 4px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.navbar-brand{
+	max-width: 60%;
+}
+.navbar-brand img{
+	width: 60%;
+}
+/*NAV END*/
+
+
+
+/*HERO SHOT BEGIN*/
+#hero-shot .container-fluid {
+	position:relative;
+	text-align: center;
+	margin-bottom: 20%;
+	}
+.hero-shot{
+	max-width: 100%;
+}
+.btn-primary{
+	border-color: #264C59;
+	padding: 12px 65px;
+	background-color: #264c59;
+	position:absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+.btn-primary:hover{
+	background-color: #fcd672;
+	border-color: #fcd672;
+	color: #ffffff;
+}
+
+body #hero-shot p{
+	color: #FFFFFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+
+/*HERO SHOT END*/
+
+
+/*EVENT INFO BEGIN*/
+
+.container-fluid {
+	margin-bottom: 2%;
+	position: relative;
+	
+}
+
+h3{
+	text-align: center;
+	padding: 2%;
+}
+
+#event-info .container-fluid {
+	position:relative;
+	text-align: justify;
+	
+}
+
+#event-info .container-fluid h2{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.left-bracket{
+	position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.right-bracket{
+	position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.card-body{
+	position:relative;
+}
+
+
+/*EVENT INFO END*/
+
+/*JUST FOR PETS BEGIN*/
+
+.just-for-pets{
+	text-align: center;
+}
+.card-deck{
+	padding-bottom: 10%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+
+.col-4 img{
+    max-height: 100%;
+    max-width: 100%;
+	
+}
+
+.card-text{
+	text-align: center;
+}
+
+.card-title{
+	text-align: center;
+}
+
+.btn-secondary{
+	background-color: #fcd672;
+	border-color: #fcd672;
+	color: #ffffff;
+}
+
+/*JUST FOR PETS END*/
+
+
+
+/*FOOTER BEGIN*/
+
+footer{
+	margin-top: 5%;
+	background-color: #264c59
+}
+
+.list-unstyled a{
+	color: #ffffff
+}
+
+
+/*FOOTER END*/
+
+
+
+

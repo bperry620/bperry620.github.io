@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*NAV BEGIN*/
+.navbar{
+	background-color: #FFFFFF;
+}
+
+.nav-link a{
+	color: #264c59;
+}
+
+.navbar-toggler {
+	border-color: #264c59;
+}
+.navbar-toggler-icon{
+	background-color: #264c59;
+	position: relative;
+	height: 4px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.navbar-brand{
+	max-width: 60%;
+}
+.navbar-brand img{
+	width: 60%;
+}
+/*NAV END*/
+
+/*HERO SHOT BEGINS*/
+#hero-shot .container-fluid {
+	position:relative;
+	text-align: center;
+	}
+.hero-shot{
+	max-width: 65%;
+	max-height: 75%;
+}
+
+/*HERO SHOT ENDS*/
+
+.text-center{
+	margin-bottom: 3%;
+}
+
+.py-5{
+	padding-top: 0% !important;
+}
+
+.bones{
+	float:right;
+	max-width: 30%;
+}
+
+.btn-primary{
+	border-color:#fcd672 ;
+	padding: 12px 65px;
+	background-color:#fcd672;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+.btn-primary:hover{
+	background-color:#264C59;
+	border-color: #264C59;
+	color: #ffffff;
+}
+/*FOOTER BEGIN*/
+
+
+footer{
+	margin-top: 5%;
+	background-color: #264c59
+}
+
+.list-unstyled a{
+	color: #ffffff
+}
+
+.foot{
+	margin-bottom: 0%;
+}
+
+/*FOOTER END*/
+
+
+@media (max-width: 768px){
+	.bones{
+		max-width:45%;
+	}
+}
